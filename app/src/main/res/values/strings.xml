@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">UnTrouble</string>
+    <string name="title_activity_tutorial">tutorial</string>
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">Search</string>
+    <string name="tab_text_3">Reminder</string>
+    <string name="about">Aplikasi ini merupakan hasil dari kekhawatiran saya tentang cara perawatan perangkat komputer milik teman-teman saya yang seolah dibiarkan saja apa adanya. Padahal seharusnya kita harus selalu melakukan maintenance pada komponen komputer untuk mencegah hal-hal yang tidak diinginkan.\nMaka dari situlah saya berkeinginan untuk membuat sebuah aplikasi yang bisa mengingatkan agar selalu tepat waktu dan konsisten dalam melakukan maintenance komputer.\nPengguna bisa memanfaatkan 2 fitur utama pada aplikasi ini untuk membantu dalam melakukan maintenance perangkat komputer yang dimilikinya, yaitu fitur Search dan fitur Reminder.\n</string>
+    ====================================================
+    <string-array name="aktivitas">
+        <item>Membersihan Disk</item>
+        <item>Melakukan Scan Virus</item>
+        <item>Mengupdate Anti Virus</item>
+        <item>Menghapus File Sementara</item>
+        <item>Mencadangkan Data</item>
+        <item>Membersihkan Casing</item>
+        <item>Membersihkan Periferal</item>
+        <item>Membersihkan Monitor</item>
+        <item>Membersihkan Fan casing</item>
+        <item>Membersihkan Mainboard</item>
+        <item>Mengganti Pasta Termal</item>
+    </string-array>
+    <string-array name="deskripsi">
+        <item>\n
+            ► Klik file explore.\n
+            ► Pilih local disk yang ingin dibersihkan menyeluruh.\n
+            ► Apabila local disk C, maka klik kanan.\n
+            ► Setelah itu, pilih properties.\n
+            ► Cari Disk Cleanup dan klik.\n
+            ► Klik semua file to delete.\n
+            ► Klik ok.\n
+            ► Tunggu pembersihan hingga selesai.\n
+        </item>
+        <item>Cara Pertama, menggunakan windows defender.\n
+            ► Buka aplikasi Windows Defender.\n
+            ► Pilih menu Virus and thread Protection.\n
+            ► Klik tombol Quick Scan.\n
+            ► Tunggu hingga selesai.\n
+        </item>
+        <item>\n
+            ► Buka aplikasi Windows Defender.\n
+            ► Klik menu Virus &amp; thread protection.\n
+            ► Scroll hingga terdapat tombol Check for updates.\n
+            ► Tunggu hingga proses update selesai.\n
+        </item>
+        <item>\n
+            ► Buka File explorer.\n
+            ► Klik kanan pada partisi yang akan dibersihkan.\n
+            ► Pilih menu Properties.\n
+            ► Tekan tombol Disk Cleanup pada dialog properties.\n
+            ► Pilih file yang akan dihapus.\n
+            ► Tekan tombol cleanup dan tunggu prosesnya selesai.\n
+        </item>
+        <item>Cara pertama, mencadangkan data ke flashdisk.\n
+            ► Sambungkan flashdisk ke komputer melalui port USB.\n
+            ► Buka file explorer, dan pilih data penting yang akan dicadangkan.\n
+            ► Copy atau Cut file, kemudian pindahkan ke dalam flashdisk.\n
+        </item>
+        <item>\n
+            ► Matikan komputer, dan cabut semua kabel pada bagian luar casing.\n
+            ► Bawa komputer ke tempat yang aman dari debu.\n
+            ► Bersihkan debu yang terdapat pada bagian dalam casing menggunakan kuas.(hati-hati, jangan sampai merusak komponen yang terdapat pada komputer)\n
+            ► Bersihkan bagian luar casing menggunakan kain lap yang bersih.\n
+        </item>
+        <item>Cara membersihkan keyboard komputer.\n
+            ► Langkah pertama membersihkan keyboard komputer adalah membalikan keyboard dengan posisi tombol berada di bawah.\n
+            ► Lalu kamu bisa menggunakan brush atau sikat gigi bekas yang masih memiliki bulu halus.\n
+            ► Kemudian tombol-tombol pada keyboard dilap hingga bersih dan tidak ada bekas kotoran.\n
+        </item>
+        <item>\n
+            ► Langkah pertama adalah memutuskan aliran listrik pada monitor agar tidak terjadi korsleting.\n
+            ► Lalu ambil kain mikrofiber kering dan bersihkan debu, noda, sidik jari yang terlihat di area layar.\n
+            ► Seka layar dengan hati-hati dengan gerakan berbentuk Z atau gerakan dari kanan ke kiri. Berikan tekanan lembut untuk menghilangkan noda di permukaan layar.\n
+            ► Jika masih ada bekas, semprot atau basahi kain mikrofiber dengan air (untuk layar LCD dan LED) atau campuran air dengan alkohol (untuk layar dilapisi kaca).\n
+            ► Lalu seka kembali layar dengan hati-hati. Jangan sampai cairan masuk ke lubang port yang terbuka.\n
+            ► Setelah itu, ambil kain mikrofiber baru untuk mengeringkan layar.\n
+            ► Jika masih ada noda yang tertinggal setelah layar mengering, lap kembali layar secara perlahan dengan kain mikrofiber yang kering.\n
+        </item>
+        <item>\n
+            ► Lepaskan semua kipas dari casing.\n
+            ► Bersihkan debu yang menempel pada baling-baling kipas menggunakan udara terkompresi. (tahan baling-baling kipas agar tidak memutar untuk mendapatkan hasil terbaik)\n
+            ► Lalu bersihkan casis penyangga kipas mengunakan kain microfiber.\n
+            ► Jika memiliki perangkat AIO water cooling, bersihkan juga radiator menggunakan udara terkompresi atau sikat gigi bekas.\n
+        </item>
+        <item>\n
+            ► Pastikan Komputer dalam keadaan mati (Shut Down).\n
+            ► Lepaskan kabel-kabel yang terhubung ke motherboard.\n
+            ► Keluarkan Motherboard dari casing agar mudah dalam pembersihan.\n
+            ► Gunakan kuas untuk membersihkan debu-debu yang mudah dibersihkan.\n
+            ► Gunakan angin terkompresi untuk membersihkan debu-debu yang membandel.\n
+            ► Jika sudah dirasa bersih, masukkan kembali motherboard kedalam casing PC dan pasang kabel-kabel seperti semula.\n
+        </item>
+        <item>\n
+            ► Pastikan Komputer dalam keadaan mati (Shut Down).\n
+            ► Lepaskan kabel power heatsink dari motherboard.\n
+            ► Lepaskan baut-baut penyangga pada kaki-kaki heatsink.\n
+            ► Bersihkan sisa-sisa thermal paste yang sudah mengering pada processor ataupun heatsink menggunakan bahan plastik seperti sendok plastik atau kartu agar tidak tergores.\n
+            ► Berikan thermal paste yang baru pada processor sebesar biji jagung pada bagian tengah processor.\n
+            ► pasang kembali komponen heatsink seperti sedia kala.\n
+        </item>
+    </string-array>
+    <string-array name="deskripsi2">
+        <item> </item>
+        <item>Cara kedua, menggunakan anti virus.\n
+            ► Buka aplikasi antivirus.\n
+            ► Pilih menu Scan and Protect.\n
+            ► Klik tombol Scan Now.\n
+            ► Tunggu hingga selesai.\n
+            ► Jika ditemukan virus, segera hapus.\n
+        </item>
+        <item> </item>
+        <item> </item>
+        <item>Cara kedua, mencadangkan data ke cloud.\n
+            ► Pastikan komputer terhubung ke internet.\n
+            ► Buka situs Google Drive menggunakan web browser.\n
+            ► Pilih file yang akan di cadangkan.\n
+            ► Drag n drop ke halaman Google Drive untuk langsung mengupload ke cloud.\n
+            ► Jangan tutup tab Google Drive saat proses upload berlangsung.\n
+        </item>
+        <item> </item>
+        <item>Cara membersihkan mouse.\n
+            ► Putuskan sambungan mouse ke komputer. Kalau mouse-mu wireless, matikan/keluarkan baterai untuk mencegah kerusakan.\n
+            ► Usap semua celah pada mouse yang kotor menggunakan kain mikrofiber.\n
+            ► Bersihkan juga sensor mouse menggunakan kain mikrofiber.\n
+            ► Setelah itu bersihkan bagian roda gulir menggunakan kain mikrofiber.\n
+            ► Pakai tusuk gigi untuk menghilangkan kotoran di area yang tidak bisa dijangkau oleh kain mikrofiber.\n
+        </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+    <string-array name="minidesk">
+        <item>Menghapus file-file besar pada harddisk.</item>
+        <item>Pencegahan dari ancaman virus komputer.</item>
+        <item>Agar antivirus bisa menangani virus terbaru.</item>
+        <item>Menghapus file-file yang sudah tidak terpakai.</item>
+        <item>Sebagai cadangan apabila file utama rusak atau hilang.</item>
+        <item>Menghilangkan debu dan kotoran pada casing.</item>
+        <item>Memberikan rasa nyaman saat digunakan.</item>
+        <item>Menjadikan layar lebih jernih dan nyaman saat dilihat.</item>
+        <item>Melancarkan sirkulasi udara pada casing komputer.</item>
+        <item>Mencegah awal mula terjadinya overheating pada komputer.</item>
+        <item>Mengoptimalkan kinerja Heatsink fan prosessor.</item>
+    </string-array>
+    <string name="title_activity_tutor">tutor</string>
+</resources>

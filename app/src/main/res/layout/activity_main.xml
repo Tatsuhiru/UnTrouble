@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bekgron"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttontutorial"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="@color/cyan_700"
+        android:text="Tutorial" />
+
+    <Button
+        android:id="@+id/buttonabout"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttontutorial"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/cyan_700"
+        android:text="about" />
+
+    <Button
+        android:id="@+id/buttonexit"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonabout"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/cyan_700"
+        android:text="exit" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/background_darken"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/bot_nav_menu" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        app:srcCompat="@drawable/ic_splash"
+        app:tint="@color/white" />
+</RelativeLayout>
