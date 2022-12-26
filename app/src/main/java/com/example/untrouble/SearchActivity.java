@@ -64,10 +64,20 @@ public class SearchActivity extends AppCompatActivity {
                 R.raw.k_pasta
         };
 
-        for (int g=0;g<aktivitas.length;g++){
-            SearchData data = new SearchData(gambar[g], aktivitas[g],deskripsi[g],deskripsi2[g],minidesk[g]);
-            list.add(data);
+        if (list.isEmpty()){
+            for (int g=0;g<aktivitas.length;g++){
+                SearchData data = new SearchData(gambar[g], aktivitas[g],deskripsi[g],deskripsi2[g],minidesk[g]);
+                list.add(data);
+            }
         }
+        else {
+            list.clear();
+            for (int g=0;g<aktivitas.length;g++){
+                SearchData data = new SearchData(gambar[g], aktivitas[g],deskripsi[g],deskripsi2[g],minidesk[g]);
+                list.add(data);
+            }
+        }
+
         adapter = new Adapter(this,list);
         recyclerView.setAdapter(adapter);
     }
