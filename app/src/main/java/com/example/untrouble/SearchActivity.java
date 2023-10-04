@@ -50,6 +50,7 @@ public class SearchActivity extends AppCompatActivity {
         String[] deskripsi = getResources().getStringArray(R.array.deskripsi);
         String[] deskripsi2 = getResources().getStringArray(R.array.deskripsi2);
         String[] minidesk = getResources().getStringArray(R.array.minidesk);
+        String[] index = getResources().getStringArray(R.array.index);
         int[] gambar = {
                 R.raw.a_cleanup,
                 R.raw.b_scan,
@@ -65,15 +66,15 @@ public class SearchActivity extends AppCompatActivity {
         };
 
         if (list.isEmpty()){
-            for (int g=0;g<aktivitas.length;g++){
-                SearchData data = new SearchData(gambar[g], aktivitas[g],deskripsi[g],deskripsi2[g],minidesk[g]);
+            for (int g=0;g< index.length;g++){
+                SearchData data = new SearchData(gambar[g], aktivitas[g],deskripsi[g],deskripsi2[g],minidesk[g],index[g]);
                 list.add(data);
             }
         }
         else {
             list.clear();
-            for (int g=0;g<aktivitas.length;g++){
-                SearchData data = new SearchData(gambar[g], aktivitas[g],deskripsi[g],deskripsi2[g],minidesk[g]);
+            for (int g=0;g<index.length;g++){
+                SearchData data = new SearchData(gambar[g], aktivitas[g],deskripsi[g],deskripsi2[g],minidesk[g],index[g]);
                 list.add(data);
             }
         }

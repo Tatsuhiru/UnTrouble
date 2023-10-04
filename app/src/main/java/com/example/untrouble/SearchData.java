@@ -2,14 +2,15 @@ package com.example.untrouble;
 
 public class SearchData {
     private int img;
-    private String judul, deskripsi, deskripsi2, minidesk;
+    private String judul, deskripsi, deskripsi2, minidesk, index;
 
-    public SearchData(int img, String judul, String deskripsi, String deskripsi2, String minidesk) {
+    public SearchData(int img, String judul, String deskripsi, String deskripsi2, String minidesk, String index) {
         this.img = img;
         this.judul = judul;
         this.deskripsi = deskripsi;
         this.deskripsi2 = deskripsi2;
         this.minidesk = minidesk;
+        this.index = index;
     }
 
     public int getImg() {
@@ -50,5 +51,13 @@ public class SearchData {
 
     public void setMinidesk(String minidesk){
         this.minidesk = minidesk;
+    }
+
+    public String getIndex(){
+        return index;
+    }
+
+    public void setYt(String index){
+        this.index = index;
     }
 }
