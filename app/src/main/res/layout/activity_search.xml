@@ -26,6 +26,4 @@
         app:itemIconTint="@drawable/selector"
         app:itemTextColor="@drawable/selector"
         app:menu="@menu/bot_nav_menu"/>
-
-
 </RelativeLayout>

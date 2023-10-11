@@ -27,7 +27,6 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> implemen
         this.context = context;
         this.data = data;
         this.alldata = new ArrayList<>(data);
-
     }
 
     @NotNull

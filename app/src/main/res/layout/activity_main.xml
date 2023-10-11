@@ -14,7 +14,7 @@
         android:layout_centerInParent="true"
         android:layout_marginTop="250dp"
         android:backgroundTint="@color/cyan_700"
-        android:text="Tutorial" />
+        android:text="Quiz" />
 
     <Button
         android:id="@+id/buttonabout"
