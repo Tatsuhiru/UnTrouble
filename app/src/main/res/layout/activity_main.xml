@@ -47,7 +47,6 @@
         app:menu="@menu/bot_nav_menu" />
 
     <ImageView
-        android:id="@+id/logo"
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_alignParentTop="true"

@@ -34,24 +34,21 @@
             android:text="Nama : Gunawan Abi Sharp Putra"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:textColor="@color/white"
-            android:id="@+id/nama"/>
+            android:textColor="@color/white" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Kelas  : 4IA21"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:textColor="@color/white"
-            android:id="@+id/kelas"/>
+            android:textColor="@color/white" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="NPM   : 52418977"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:textColor="@color/white"
-            android:id="@+id/npm"/>
+            android:textColor="@color/white" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

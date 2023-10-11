@@ -1,9 +1,5 @@
 <resources>
     <string name="app_name">UnTrouble</string>
-    <string name="title_activity_tutorial">tutorial</string>
-    <string name="tab_text_1">Home</string>
-    <string name="tab_text_2">Search</string>
-    <string name="tab_text_3">Reminder</string>
     <string name="about">Aplikasi ini merupakan hasil dari kekhawatiran saya tentang cara perawatan perangkat komputer milik teman-teman saya yang seolah dibiarkan saja apa adanya. Padahal seharusnya kita harus selalu melakukan maintenance pada komponen komputer untuk mencegah hal-hal yang tidak diinginkan.\nMaka dari situlah saya berkeinginan untuk membuat sebuah aplikasi yang bisa mengingatkan agar selalu tepat waktu dan konsisten dalam melakukan maintenance komputer.\nPengguna bisa memanfaatkan 2 fitur utama pada aplikasi ini untuk membantu dalam melakukan maintenance perangkat komputer yang dimilikinya, yaitu fitur Search dan fitur Reminder.\n</string>
     ====================================================
     <string-array name="aktivitas">
@@ -142,7 +138,6 @@
         <item>Mencegah awal mula terjadinya overheating pada komputer.</item>
         <item>Mengoptimalkan kinerja Heatsink fan prosessor.</item>
     </string-array>
-    <string name="title_activity_tutor">tutor</string>
     <string-array name="index">
         <item>0</item>
         <item>1</item>
