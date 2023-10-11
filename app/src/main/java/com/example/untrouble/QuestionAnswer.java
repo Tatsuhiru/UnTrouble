@@ -1,0 +1,97 @@
+package com.example.untrouble;
+
+public class QuestionAnswer {
+
+    public static String question[] ={
+            "1 A",
+            "2 B",
+            "3 C",
+            "4 D",
+            "5 A",
+            "6 B",
+            "7 C",
+            "8 D",
+            "9 A",
+            "10 B",
+            "11 C",
+            "12 D",
+            "13 A",
+            "14 B",
+            "15 C",
+            "16 D",
+            "17 A",
+            "18 B",
+            "19 C",
+            "20 D",
+            "21 A",
+            "22 B",
+            "23 C",
+            "24 D",
+            "25 A",
+    };
+
+    public static String choices[][] = {
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+            {"A","B","C","D"},
+    };
+
+    public static String correctAnswers[] = {
+            "A",
+            "B",
+            "C",
+            "D",
+            "A",
+            "B",
+            "C",
+            "D",
+            "A",
+            "B",
+            "C",
+            "D",
+            "A",
+            "B",
+            "C",
+            "D",
+            "A",
+            "B",
+            "C",
+            "D",
+            "A",
+            "B",
+            "C",
+            "D",
+            "A"
+    };
+
+    public static String[] images = new String[] {
+            "image_1.png",
+            "image_2.png",
+            "image_3.png",
+            "-1",
+            "image_4.png"
+    };
+}

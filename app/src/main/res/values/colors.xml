@@ -11,4 +11,9 @@
     <color name="cyan_500">#82d8d9</color>
     <color name="cyan_700">#507377</color>
     <color name="background_darken">#353e45</color>
+    <color name="sekunder">#5c6b78</color>
+    <color name="sekunder2">#8c9ea9</color>
+    <color name="tersier">#1f2932</color>
+    <color name="tersier2">#6b7d8a</color>
+
 </resources>

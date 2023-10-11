@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.SearchView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -25,10 +26,16 @@ public class SearchActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
+
+        setupBottomNavigation();
+        setupRecyclerView();
+        populateRecyclerView();
+    }
+
+    private void setupBottomNavigation() {
         bottomNavigationView = findViewById(R.id.bottom_navigation);
         bottomNavigationView.setSelectedItemId(R.id.search);
         bottomNavigationView.setOnNavigationItemSelectedListener(item -> {
-
             switch (item.getItemId()){
                 case R.id.search:
                     return true;
@@ -43,8 +50,15 @@ public class SearchActivity extends AppCompatActivity {
             }
             return true;
         });
+    }
+
+    private void setupRecyclerView() {
         recyclerView=findViewById(R.id.recycler);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+    }
+
+    private void populateRecyclerView() {
+        list.clear();
 
         String[] aktivitas = getResources().getStringArray(R.array.aktivitas);
         String[] deskripsi = getResources().getStringArray(R.array.deskripsi);
@@ -65,18 +79,9 @@ public class SearchActivity extends AppCompatActivity {
                 R.raw.k_pasta
         };
 
-        if (list.isEmpty()){
-            for (int g=0;g< index.length;g++){
-                SearchData data = new SearchData(gambar[g], aktivitas[g],deskripsi[g],deskripsi2[g],minidesk[g],index[g]);
-                list.add(data);
-            }
-        }
-        else {
-            list.clear();
-            for (int g=0;g<index.length;g++){
-                SearchData data = new SearchData(gambar[g], aktivitas[g],deskripsi[g],deskripsi2[g],minidesk[g],index[g]);
-                list.add(data);
-            }
+        for (int g=0;g< index.length;g++){
+            SearchData data = new SearchData(gambar[g], aktivitas[g],deskripsi[g],deskripsi2[g],minidesk[g],index[g]);
+            list.add(data);
         }
 
         adapter = new Adapter(this,list);
@@ -97,6 +102,10 @@ public class SearchActivity extends AppCompatActivity {
             @Override
             public boolean onQueryTextChange(String newText) {
                 adapter.getFilter().filter(newText);
+
+                if (adapter.getItemCount() == 0) {
+                    Toast.makeText(SearchActivity.this, "Item yang Anda cari tidak ditemukan.", Toast.LENGTH_SHORT).show();
+                }
                 return false;
             }
         });

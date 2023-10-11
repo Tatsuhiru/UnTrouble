@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openTutorial(){
-        Intent intent = new Intent(this, com.example.untrouble.tutorial.class);
+        Intent intent = new Intent(this, com.example.untrouble.Quiz.class);
         startActivity(intent);
     }
 
