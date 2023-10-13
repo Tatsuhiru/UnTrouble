@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/buttontutorial"
+        android:id="@+id/buttonquiz"
         android:layout_width="128dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -20,7 +20,7 @@
         android:id="@+id/buttonabout"
         android:layout_width="128dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/buttontutorial"
+        android:layout_below="@+id/buttonquiz"
         android:layout_centerInParent="true"
         android:layout_marginTop="25dp"
         android:backgroundTint="@color/cyan_700"

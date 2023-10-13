@@ -36,7 +36,7 @@
             android:label="Quiz"
             android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
         <activity
-            android:name=".about"
+            android:name=".About"
             android:label="About"
             android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
         <activity

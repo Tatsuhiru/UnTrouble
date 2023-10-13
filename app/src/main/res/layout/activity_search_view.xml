@@ -24,7 +24,6 @@
                 android:layout_height="match_parent"
                 android:background="#505050">
 
-
                 <WebView
                     android:id="@+id/webView"
                     android:layout_width="400dp"
@@ -75,7 +74,6 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/deskripsi" />
-
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>
