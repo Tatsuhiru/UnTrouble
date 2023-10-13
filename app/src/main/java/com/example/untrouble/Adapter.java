@@ -45,14 +45,9 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> implemen
             context.startActivity(intent);
         });
     }
+    public int getItemCount(){return data.size();}
 
-    public int getItemCount(){
-        return data.size();
-    }
-
-    public Filter getFilter(){
-        return Filterr;
-    }
+    public Filter getFilter(){return Filterr;}
 
     private Filter Filterr=new Filter() {
         @Override
