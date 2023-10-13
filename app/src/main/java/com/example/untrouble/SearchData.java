@@ -13,51 +13,10 @@ public class SearchData {
         this.index = index;
     }
 
-    public int getImg() {
-        return img;
-    }
-
-    public void setImg(int img) {
-        this.img = img;
-    }
-
-    public String getJudul() {
-        return judul;
-    }
-
-    public void setJudul(String judul) {
-        this.judul = judul;
-    }
-
-    public String getDeskripsi() {
-        return deskripsi;
-    }
-
-    public void setDeskripsi(String deskripsi) {
-        this.deskripsi = deskripsi;
-    }
-
-    public String getDeskripsi2(){
-        return deskripsi2;
-    }
-
-    public void setDeskripsi2(String deskripsi2) {
-        this.deskripsi2 = deskripsi2;
-    }
-
-    public String getMinidesk(){
-        return minidesk;
-    }
-
-    public void setMinidesk(String minidesk){
-        this.minidesk = minidesk;
-    }
-
-    public String getIndex(){
-        return index;
-    }
-
-    public void setYt(String index){
-        this.index = index;
-    }
+    public int getImg() {return img;}
+    public String getJudul() {return judul;}
+    public String getDeskripsi() {return deskripsi;}
+    public String getDeskripsi2() {return deskripsi2;}
+    public String getMinidesk() {return minidesk;}
+    public String getIndex() {return index;}
 }
